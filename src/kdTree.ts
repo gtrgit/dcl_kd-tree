@@ -1,9 +1,9 @@
-import KDNode, { Node } from './kdNode';
-import { Point2D } from './types/point2d';
-import distance from './tools/distance';
-import Rect from './rect';
-import { Rect2d } from './types/rect2d';
-import PQ from './tools/pq';
+import KDNode, { Node } from "./kdNode";
+import { Point2D } from "./types/point2d";
+import distance from "./tools/distance";
+import Rect from "./rect";
+import { Rect2d } from "./types/rect2d";
+import PQ from "./tools/pq";
 
 class KDTree {
   root: Node;

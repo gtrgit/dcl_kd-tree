@@ -1,5 +1,5 @@
-import { Point2D } from './types/point2d';
-import { Rect2d } from './types/rect2d';
+import { Point2D } from "./types/point2d";
+import { Rect2d } from "./types/rect2d";
 
 class Rect {
   static contains(rect: Rect2d, point: Point2D): boolean {

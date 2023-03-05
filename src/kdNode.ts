@@ -1,4 +1,4 @@
-import { Point2D } from './types/point2d';
+import { Point2D } from "./types/point2d";
 
 export interface INode {
   point: Point2D;
