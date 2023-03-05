@@ -6,7 +6,6 @@ import KDTree from "../kdTree";
 export class Board extends Entity {
   private hexTransform: TranformConstructorArgs = new Transform();
   private hexPos: TranformConstructorArgs[] = [];
-  private test: string = "this is a test";
   private tree: KDTree = new KDTree();
   private points: any = [];
   private tileList: Entity[] = [];
